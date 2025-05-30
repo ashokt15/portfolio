@@ -7,9 +7,10 @@
   <title>My Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
-    tailwind.config = {
+    window.tailwind = window.tailwind || {};
+    window.tailwind.config = {
       darkMode: 'class'
-    }
+    };
   </script>
 </head>
 <body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-white transition-colors duration-300">
