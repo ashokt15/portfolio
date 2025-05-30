@@ -9,17 +9,17 @@ toggle.addEventListener('click', () => {
 const projects = [
   {
     title: "Portfolio Website",
-    description: "A responsive portfolio built with HTML, Tailwind CSS, and vanilla JavaScript. Deployed on Vercel.",
-    link: "https://your-deployed-portfolio.vercel.app/"
+    description: "A clean, responsive personal portfolio built using HTML, Tailwind CSS, and JavaScript.",
+    link: "https://portfolio-six-flame-46.vercel.app/"
   },
   {
     title: "E-Commerce Dashboard",
-    description: "Admin dashboard with order tracking, product analytics, and dark mode.",
+    description: "A dashboard with analytics and order tracking built with Chart.js and Express backend.",
     link: "#"
   },
   {
-    title: "Blog Engine",
-    description: "A minimal markdown-based blog system with theme toggler and SEO-ready layout.",
+    title: "Blog Platform",
+    description: "A minimal markdown-based blog system with dark mode and real-time previews.",
     link: "#"
   }
 ];
@@ -27,7 +27,7 @@ const projects = [
 const container = document.getElementById('projectsList');
 projects.forEach(project => {
   const el = document.createElement('div');
-  el.className = 'border rounded-lg p-4 dark:border-gray-700';
+  el.className = 'border rounded-lg p-4 dark:border-gray-700 shadow hover:shadow-lg transition';
   el.innerHTML = `
     <h4 class="text-xl font-bold mb-1">${project.title}</h4>
     <p class="mb-2">${project.description}</p>
@@ -35,6 +35,3 @@ projects.forEach(project => {
   `;
   container.appendChild(el);
 });
-tailwind.config = {
-      darkMode: 'class'
-    }
