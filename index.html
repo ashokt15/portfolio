@@ -16,7 +16,7 @@
 
   <!-- Navigation -->
   <nav
-    class="fixed top-0 w-full z-50 nav-blur border-b border-gray-200 dark:border-gray-700 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md">
+    class="fixed top-0 w-full z-50 nav-blur border-b border-gray-200 dark:border-gray-700">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center py-4">
         <div class="flex-shrink-0">
@@ -392,63 +392,7 @@
           Here are some of my recent projects that showcase my skills and passion for development
         </p>
       </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Project 1 -->
-        <div class="project-card bg-white dark:bg-slate-700 rounded-xl shadow-lg overflow-hidden">
-          <div class="h-48 bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
-            <i class="fas fa-shopping-cart text-white text-6xl"></i>
-          </div>
-          <div class="p-6">
-            <h3 class="text-xl font-semibold mb-2">React Native App</h3>
-            <p class="text-gray-600 dark:text-gray-300 mb-4">
-              Cross-platform mobile application for fitness tracking with offline capabilities, push notifications, and
-              social features.
-            </p>
-            <div class="flex flex-wrap gap-2 mb-4">
-              <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs">React Native</span>
-              <span class="bg-purple-100 text-purple-800 px-2 py-1 rounded-full text-xs">Redux</span>
-              <span class="bg-red-100 text-red-800 px-2 py-1 rounded-full text-xs">Firebase</span>
-              <span class="bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs">SQLite</span>
-            </div>
-            <div class="flex space-x-4">
-              <a href="#" class="text-indigo-600 hover:text-indigo-800 transition-colors">
-                <i class="fab fa-github mr-1"></i> Code
-              </a>
-              <a href="#" class="text-indigo-600 hover:text-indigo-800 transition-colors">
-                <i class="fas fa-external-link-alt mr-1"></i> Demo
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 6 -->
-        <div class="project-card bg-white dark:bg-slate-700 rounded-xl shadow-lg overflow-hidden">
-          <div class="h-48 bg-gradient-to-br from-yellow-500 to-orange-600 flex items-center justify-center">
-            <i class="fas fa-robot text-white text-6xl"></i>
-          </div>
-          <div class="p-6">
-            <h3 class="text-xl font-semibold mb-2">AI Chatbot</h3>
-            <p class="text-gray-600 dark:text-gray-300 mb-4">
-              Intelligent chatbot with natural language processing capabilities. Integrates with multiple APIs and
-              provides contextual responses.
-            </p>
-            <div class="flex flex-wrap gap-2 mb-4">
-              <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs">Python</span>
-              <span class="bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs">Flask</span>
-              <span class="bg-purple-100 text-purple-800 px-2 py-1 rounded-full text-xs">OpenAI</span>
-              <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-xs">WebSocket</span>
-            </div>
-            <div class="flex space-x-4">
-              <a href="#" class="text-indigo-600 hover:text-indigo-800 transition-colors">
-                <i class="fab fa-github mr-1"></i> Code
-              </a>
-              <a href="#" class="text-indigo-600 hover:text-indigo-800 transition-colors">
-                <i class="fas fa-external-link-alt mr-1"></i> Try It
-              </a>
-            </div>
-          </div>
-        </div>
+      <div id="projectsContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       </div>
 
       <div class="text-center mt-12">
@@ -517,5 +461,6 @@
     </div>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>

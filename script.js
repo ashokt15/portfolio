@@ -66,22 +66,6 @@ const projects = [
   },
   {
     id: 5,
-    title: "React Native App",
-    description: "Cross-platform mobile application for fitness tracking with offline capabilities, push notifications, and social features.",
-    icon: "fas fa-mobile-alt",
-    gradient: "from-teal-500 to-blue-600",
-    technologies: [
-      { name: "React Native", color: "bg-blue-100 text-blue-800" },
-      { name: "Redux", color: "bg-purple-100 text-purple-800" },
-      { name: "Firebase", color: "bg-red-100 text-red-800" },
-      { name: "SQLite", color: "bg-green-100 text-green-800" }
-    ],
-    githubUrl: "https://github.com/ashokt15/fitness-tracker-app",
-    liveUrl: "#",
-    featured: false
-  },
-  {
-    id: 6,
     title: "AI Chatbot",
     description: "Intelligent chatbot with natural language processing capabilities. Integrates with multiple APIs and provides contextual responses.",
     icon: "fas fa-robot",
