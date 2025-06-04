@@ -19,17 +19,17 @@ const projects = [
   {
     id: 2,
     title: "Task Management App",
-    description: "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+    description: "Taskmate is a minimalist, modern, and responsive web application that allows users to manage personal or professional tasks with ease.",
     icon: "fas fa-tasks",
     gradient: "from-green-500 to-teal-600",
     technologies: [
       { name: "React", color: "bg-blue-100 text-blue-800" },
-      { name: "Firebase", color: "bg-red-100 text-red-800" },
-      { name: "Material-UI", color: "bg-indigo-100 text-indigo-800" },
-      { name: "Socket.io", color: "bg-gray-100 text-gray-800" }
+      { name: "TailwindCSS", color: "bg-red-100 text-red-800" },
+      { name: "Express", color: "bg-indigo-100 text-indigo-800" },
+      { name: "Mongodb", color: "bg-gray-100 text-gray-800" }
     ],
-    githubUrl: "https://github.com/ashokt15/task-manager",
-    liveUrl: "https://your-task-manager.vercel.app",
+    githubUrl: "https://github.com/ashokt15/taskmate",
+    liveUrl: "https://taskmate-azure.vercel.app/",
     featured: true
   },
   {
