@@ -2,22 +2,6 @@
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
-    icon: "fas fa-shopping-cart",
-    gradient: "from-indigo-500 to-purple-600",
-    technologies: [
-      { name: "React", color: "bg-blue-100 text-blue-800" },
-      { name: "Node.js", color: "bg-green-100 text-green-800" },
-      { name: "MongoDB", color: "bg-purple-100 text-purple-800" },
-      { name: "Stripe", color: "bg-yellow-100 text-yellow-800" }
-    ],
-    githubUrl: "https://github.com/ashokt15/ecommerce-platform",
-    liveUrl: "https://your-ecommerce-demo.vercel.app",
-    featured: true
-  },
-  {
-    id: 2,
     title: "Task Management App",
     description: "Taskmate is a minimalist, modern, and responsive web application that allows users to manage personal or professional tasks with ease.",
     icon: "fas fa-tasks",
@@ -33,23 +17,7 @@ const projects = [
     featured: true
   },
   {
-    id: 3,
-    title: "Analytics Dashboard",
-    description: "Interactive data visualization dashboard built with React and D3.js. Features real-time data updates and customizable charts.",
-    icon: "fas fa-chart-bar",
-    gradient: "from-orange-500 to-red-600",
-    technologies: [
-      { name: "React", color: "bg-blue-100 text-blue-800" },
-      { name: "D3.js", color: "bg-orange-100 text-orange-800" },
-      { name: "Tailwind", color: "bg-cyan-100 text-cyan-800" },
-      { name: "Node.js", color: "bg-green-100 text-green-800" }
-    ],
-    githubUrl: "https://github.com/ashokt15/analytics-dashboard",
-    liveUrl: "https://your-analytics-dashboard.vercel.app",
-    featured: true
-  },
-  {
-    id: 4,
+    id: 2,
     title: "Blog Platform",
     description: "Modern blogging platform with markdown support, comment system, and SEO optimization. Built with Next.js and headless CMS.",
     icon: "fas fa-blog",
@@ -57,27 +25,11 @@ const projects = [
     technologies: [
       { name: "Next.js", color: "bg-black text-white" },
       { name: "TypeScript", color: "bg-blue-100 text-blue-800" },
-      { name: "Strapi", color: "bg-green-100 text-green-800" },
-      { name: "GraphQL", color: "bg-gray-100 text-gray-800" }
+      { name: "Material UI", color: "bg-green-100 text-green-800" },
+      { name: "Postgres", color: "bg-gray-100 text-gray-800" }
     ],
-    githubUrl: "https://github.com/ashokt15/blog-platform",
-    liveUrl: "https://your-blog-platform.vercel.app",
-    featured: false
-  },
-  {
-    id: 5,
-    title: "AI Chatbot",
-    description: "Intelligent chatbot with natural language processing capabilities. Integrates with multiple APIs and provides contextual responses.",
-    icon: "fas fa-robot",
-    gradient: "from-yellow-500 to-orange-600",
-    technologies: [
-      { name: "Python", color: "bg-blue-100 text-blue-800" },
-      { name: "Flask", color: "bg-green-100 text-green-800" },
-      { name: "OpenAI", color: "bg-purple-100 text-purple-800" },
-      { name: "WebSocket", color: "bg-gray-100 text-gray-800" }
-    ],
-    githubUrl: "https://github.com/ashokt15/ai-chatbot",
-    liveUrl: "https://your-chatbot-demo.vercel.app",
+    githubUrl: "https://github.com/ashokt15/blognest",
+    liveUrl: "https://blognest-rouge.vercel.app/",
     featured: false
   }
 ];
