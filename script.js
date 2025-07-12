@@ -31,7 +31,22 @@ const projects = [
     githubUrl: "https://github.com/ashokt15/blognest",
     liveUrl: "https://blognest-rouge.vercel.app/",
     featured: false
-  }
+  },
+ {
+  id: 3,
+  title: "Focus Today",
+  description: "Focus Today is a minimal and distraction-free productivity web app designed to help users stay focused and manage tasks efficiently. It features a calming interface with essential tools like a Pomodoro timer, task list, and motivational prompts—perfect for deep work sessions.",
+  icon: "fas fa-stopwatch",
+  gradient: "from-yellow-400 to-orange-500",
+  technologies: [
+    { name: "HTML", color: "bg-orange-100 text-orange-800" },
+    { name: "CSS", color: "bg-blue-100 text-blue-800" },
+    { name: "JavaScript", color: "bg-yellow-100 text-yellow-800" }
+  ],
+  githubUrl: "https://github.com/ashokt15/focus-today",
+  liveUrl: "https://focus-today-pi.vercel.app/",
+  featured: false
+}
 ];
 
 // Function to generate project cards
