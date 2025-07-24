@@ -16,22 +16,22 @@ const projects = [
     liveUrl: "https://taskmate-azure.vercel.app/",
     featured: true
   },
-  {
-    id: 2,
-    title: "Blog Platform",
-    description: "Modern blogging platform with markdown support, comment system, and SEO optimization. Built with Next.js and headless CMS.",
-    icon: "fas fa-blog",
-    gradient: "from-purple-500 to-pink-600",
-    technologies: [
-      { name: "Next.js", color: "bg-black text-white" },
-      { name: "TypeScript", color: "bg-blue-100 text-blue-800" },
-      { name: "Material UI", color: "bg-green-100 text-green-800" },
-      { name: "Postgres", color: "bg-gray-100 text-gray-800" }
-    ],
-    githubUrl: "https://github.com/ashokt15/blognest",
-    liveUrl: "https://blognest-rouge.vercel.app/",
-    featured: false
-  },
+  // {
+  //   id: 2,
+  //   title: "Blog Platform",
+  //   description: "Modern blogging platform with markdown support, comment system, and SEO optimization. Built with Next.js and headless CMS.",
+  //   icon: "fas fa-blog",
+  //   gradient: "from-purple-500 to-pink-600",
+  //   technologies: [
+  //     { name: "Next.js", color: "bg-black text-white" },
+  //     { name: "TypeScript", color: "bg-blue-100 text-blue-800" },
+  //     { name: "Material UI", color: "bg-green-100 text-green-800" },
+  //     { name: "Postgres", color: "bg-gray-100 text-gray-800" }
+  //   ],
+  //   githubUrl: "https://github.com/ashokt15/blognest",
+  //   liveUrl: "https://blognest-rouge.vercel.app/",
+  //   featured: false
+  // },
  {
   id: 3,
   title: "Focus Today",
